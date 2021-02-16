@@ -34,7 +34,11 @@ const userSchema = new mongoose.Schema({
   gender : {
     type:String
   },
-  friendList:[{type : mongoose.Schema.Types.ObjectId , ref:'Friends'}],
+  friends:[{type : mongoose.Schema.Types.ObjectId , ref:'Friends'}],
+  createdEvents:[{type : mongoose.Schema.Types.ObjectId , ref:'CreatedEvents'}],
+  joinedEvents:[{type : mongoose.Schema.Types.ObjectId , ref:'JoinedEvents'}],
+  followers:[{type : mongoose.Schema.Types.ObjectId , ref:'Followers'}],
+  posts:[{type : mongoose.Schema.Types.ObjectId , ref:'Posts'}],
   userInfo : {type : Object } 
 });
 

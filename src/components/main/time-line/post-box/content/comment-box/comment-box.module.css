@@ -1,0 +1,36 @@
+.comment-box {
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+    margin-bottom: 5px;
+    padding: 5px ;
+    border-radius: 5px;
+    box-shadow: -1px 1px 5px 0px white;
+}
+
+.comment-img {
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.comment-detail {
+    width: calc(100% - 80px);
+}
+
+.comment-date {
+    font-size: 15px;
+    color: #595c6c;
+    margin-bottom: 4px;
+}
+
+.comment-date strong {
+    margin-right: 5px;
+}
+
+
+/* https://i.ibb.co/ryhqFzd/Vesko.jpg */
+/* https://i.ibb.co/C0sZXLz/Ivan.jpg */

@@ -1,8 +1,9 @@
 const user = require('./user');
-const trip = require('./trip');
-const log = require('./log');
+const posts = require('./posts');
+const comment = require('./comment');
+
 
 
 module.exports= {
-    user,trip,log
+    user, posts,comment
 }

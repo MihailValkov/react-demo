@@ -1,0 +1,13 @@
+.error {
+    margin-top: 20px;
+    padding-top: 5px;
+    height: 30px;
+    color:white;
+    text-shadow: 2px 2px 2px black;
+
+  }
+  .error-active {
+    border-radius:20px ;
+    background-color: rgba(182, 16, 16, 0.7);
+  }
+  

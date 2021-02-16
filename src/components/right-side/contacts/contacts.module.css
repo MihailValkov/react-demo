@@ -1,0 +1,10 @@
+.contacts-wrapper {
+    padding: 30px;
+}
+.contacts-title {
+    font-family: "DM Sans", sans-serif;
+    color: #5c5e6e;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,13 @@
+.link i {
+    margin-right: 10px;
+}
+.link {
+    text-decoration: none;
+}
+
+.status-action {
+    display: flex;
+    padding: 10px 5px;
+    color:#c3c5d5;
+    font-size: 1rem;
+}

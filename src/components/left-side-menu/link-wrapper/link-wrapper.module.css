@@ -1,0 +1,29 @@
+.side-wrapper {
+    padding: 30px;
+}
+.side-title {
+    font-family: "DM Sans", sans-serif;
+    color: #5c5e6e;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.side-menu {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    white-space: nowrap;
+}
+
+.side-menu a {
+    text-decoration: none;
+    color: #9c9cab;
+    display: flex;
+    align-items: center;
+}
+.side-menu a:hover {
+    color: #fff;
+}
+.side-menu a:not(:last-child) {
+    margin-bottom: 20px;
+}

@@ -1,0 +1,24 @@
+.right-side {
+    width: 280px;
+    flex-shrink: 0;
+    margin-left: auto;
+    overflow: auto;
+    background-color: #151728;
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (max-width: 1210px) {
+    .right-side {
+        position: fixed;
+        right: 0;
+        top: 0;
+        transition: 0.3s;
+        height: 100%;
+        transform: translateX(280px);
+        z-index: 4;
+   }
+    .right-side.active {
+        transform: translateX(0);
+   }
+}
+

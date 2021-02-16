@@ -1,0 +1,15 @@
+.stories {
+    border-bottom: 1px solid #272a3a;
+}
+
+.stories-wrapper {
+    padding: 30px;
+}
+
+.stories-title {
+    font-family: "DM Sans", sans-serif;
+    color: #5c5e6e;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}

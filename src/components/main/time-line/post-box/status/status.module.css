@@ -1,0 +1,72 @@
+.album-status {
+    border: none;
+    display: flex;
+    padding: 0 20px;
+    align-items: center;
+    border-bottom: 1px solid #272a3a;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+
+.album-status-img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.album-detail {
+    width: calc(100% - 110px);
+}
+.album-detail button {
+    position: absolute;
+    right: 15px;
+    top: 0;
+}
+.album-title span {
+    color: #1771d6;
+    cursor: pointer;
+    margin-left: 2px;
+}
+.album-date {
+    font-size: 15px;
+    color: #595c6c;
+    margin-top: 4px;
+}
+
+.album-intro-menu {
+    margin-bottom: auto;
+    margin-top: 5px;
+    background-color: #8f98a9;
+    box-shadow: -8px 0 0 0 #8f98a9, 8px 0 0 0 #8f98a9;
+    width: 5px;
+    height: 5px;
+    border: 0;
+    padding: 0;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: 8px;
+}
+
+.edit-post {
+    display:none;
+    position: absolute;
+    top: -14px;
+    right: 5px;
+}
+.edit-post i {
+    margin-left: 10px;
+    cursor: pointer;
+}
+.edit-post i:first-child:hover {
+    color:#5cb85c;
+}
+.edit-post i:nth-child(2):hover {
+    color: #d9534f;
+}
+.active {
+    display:block;
+}
+

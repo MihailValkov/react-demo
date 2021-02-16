@@ -1,0 +1,27 @@
+.info-item {
+    color: #c3c5d5;
+}
+.info-item + .info-item {
+    margin-top: 14px;
+}
+.info-item span {
+    margin-left: 6px;
+    color: #1771d6;
+    text-decoration: none;
+}
+.info-item i {
+    width: 16px;
+    margin-right: 10px;
+}
+.edit-profile {
+    display: flex;
+    justify-content: space-between;
+}
+
+.edit-profile input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #5c5e6e;
+    text-align: center;
+    color:#ccc8db;
+}

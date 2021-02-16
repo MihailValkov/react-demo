@@ -1,0 +1,22 @@
+.account-button {
+    border: 0;
+    background: 0;
+    color: #64677a;
+    padding: 0;
+    cursor: pointer;
+    position: relative;
+}
+.account-button i {
+    font-size:1.2rem;
+}
+.account-button:not(.right-side-button) + .account-button:before {
+    position: absolute;
+    right: 0px;
+    top: -2px;
+    background-color: #1b86f8;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    content: "";
+    border: 2px solid #151728;
+}

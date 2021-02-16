@@ -1,0 +1,16 @@
+.account-user {
+    display: inline-flex;
+    align-items: center;
+    color: #64677a;
+    font-weight: 600;
+}
+.account-user span {
+    font-size: 10px;
+    font-weight: normal;
+}
+.account-profile {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    margin: 0 10px;
+}

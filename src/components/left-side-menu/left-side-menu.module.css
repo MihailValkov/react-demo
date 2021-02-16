@@ -1,0 +1,91 @@
+.left-side {
+    width: 260px;
+    border-right: 1px solid #272a3a;
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s;
+    background-color: #151728;
+    overflow: auto;
+    flex-shrink: 0;
+}
+@media screen and (max-width: 930px) {
+    .left-side.active {
+        z-index: 4;
+   }
+    .left-side.active > *:not(.logo) {
+        opacity: 1;
+        transition: 0.3s 0.2s;
+   }
+    .left-side.active .left-side-button i:first-child {
+        opacity: 0;
+   }
+    .left-side.active .left-side-button i:last-child {
+        transform: translate(-50%, -50%);
+        opacity: 1;
+   }
+    .left-side:not(.active) {
+        width: 56px;
+        overflow: hidden;
+   }
+    .left-side:not(.active) > *:not(.logo):not(.left-side-button) {
+        opacity: 0;
+   }
+    .left-side:not(.active) .logo {
+        writing-mode: vertical-lr;
+        transform: rotate(180deg);
+        transform-origin: bottom;
+        display: flex;
+        align-items: center;
+
+   }
+}
+
+.left-side-button {
+    display: none;
+}
+@media screen and (max-width: 930px) {
+    .left-side-button {
+        display: flex;
+        flex-shrink: 0;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        cursor: pointer;
+        height: 60px;
+        background-color: rgba(39, 42, 58, 0.5);
+        border: 0;
+        padding: 0;
+        line-height: 0;
+        color: #fff;
+        border-bottom: 1px solid #272a3a;
+   }
+    .left-side-button i {
+        transition: 0.2s;
+        font-size: 1re;
+   }
+    .left-side-button i:last-child {
+        position: absolute;
+        left: 50%;
+        transform: translate(100%, -50%);
+        top: 50%;
+        opacity: 0;
+   }
+}
+
+
+.logo {
+    font-family: "DM Sans", sans-serif;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    height: 90px;
+    line-height: 68px;
+    letter-spacing: 4px;
+    position: sticky;
+    top: 0;
+    background: linear-gradient(to bottom, rgba(21, 23, 40, 1) 0%, rgba(21, 23, 40, 1) 76%, rgba(21, 23, 40, 0) 100%);
+}
+.logo span {
+    margin: 5px 0;
+}
